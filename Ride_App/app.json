@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Ride_App",
+    "slug": "Ride_App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "myapp",
+    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.viva.rideapp",
+      "config": {
+                "googleMapsApiKey": "AIzaSyBNjA5NBqgNh84-iQ4wBHfiVWkdcU7q7j8"
+            }
+    },
+    "android": {
+      "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyBNjA5NBqgNh84-iQ4wBHfiVWkdcU7q7j8"
+                }
+            },
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.viva.rideapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
