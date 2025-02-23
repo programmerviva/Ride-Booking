@@ -38,7 +38,7 @@ This repository contains a Node.js application that enables real-time location t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Ritik5Prasad/Ride_Booking_Server.git
+   git clone https://github.com/programmerviva/Ride_Server.git
 
 
 2. Navigate to the project directory::
