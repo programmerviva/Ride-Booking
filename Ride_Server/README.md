@@ -58,13 +58,4 @@ This repository contains a Node.js application that enables real-time location t
    ```bash
    npm start
 
-## ⭐ Support & Stay Connected!  
-
-If you found this project helpful, consider giving it a **star** ⭐!  
-
-📺 Don't forget to **like & subscribe** on [YouTube]([#](https://m.youtube.com/watch?v=u_8-jF01hW8)) for more awesome content.  
-
-Happy coding! 🚀🔥  
-
-
-
+## ⭐ Support & Stay Connected 
